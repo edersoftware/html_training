@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <link rel="stylesheet" type="text/css" href="CSS/style.css">
+		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		Hello
+	</head>
+	<body>
+		<p>Das ist ein Test</p>
+		<script>
+			var i = 1;
+			var x = 1;
+			document.write("<p>"+(i+x)+"</p>");
+			
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#out").text($("#test").val());
+    });
+});
+		</script>
+		<input type="text" id="erste_zahl" name="Erste Zahl"/>
+		<input type="text" id="zweite_zahl" name="Zweite Zahl"/>
+		<button id="button">Addieren</button>
+	</body>
+</html>
